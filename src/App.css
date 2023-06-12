@@ -6,6 +6,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  width: 4px;
+  background-color: #a9a7a7;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  width: 4px;
+  background-color: #fff;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

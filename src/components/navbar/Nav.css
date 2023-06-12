@@ -1,0 +1,44 @@
+.navcontainer,
+.container {
+  height: 70px;
+  display: flex;
+  margin-left: 6vw;
+  align-items: center;
+}
+.container {
+  justify-content: space-between;
+  position: relative;
+}
+.searchbar {
+  padding: 0.3rem 0.5rem;
+  border: 0.8px solid grey;
+  border-radius: 25px;
+  height: 35px;
+  width: 400px;
+  margin: 15px 150px;
+}
+.navbox {
+  display: flex;
+  align-items: center;
+  float: right;
+  font-size: 15px;
+  margin-right: 50px;
+}
+.username span {
+  color: #2cd8ef;
+}
+.addnotes {
+  height: 40px;
+  min-width: 80px;
+  border-radius: 25px;
+  background-color: deepskyblue;
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 10px;
+  left: 30vw;
+}

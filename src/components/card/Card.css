@@ -1,0 +1,30 @@
+.cardContainer {
+  width: 75vw;
+  background-color: rgb(243 243 243);
+  height: 20vh;
+  padding: 4vh 2.5vw;
+  border-radius: 10px;
+  margin-bottom: 4vh;
+  cursor: pointer;
+}
+.cardContainer:hover {
+  color: white;
+  background-color: #2cd8ef;
+}
+.title {
+  font-weight: 700;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 0 0 2vh 0;
+}
+.des {
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  max-height: 9vh;
+  font-size: 14px;
+  overflow: auto;
+}
+.userId span {
+  font-weight: 700;
+}

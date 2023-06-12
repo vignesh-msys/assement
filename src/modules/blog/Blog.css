@@ -1,0 +1,16 @@
+.blog-container {
+  width: 65vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 5vh !important;
+  padding: 3vh 3vw;
+}
+
+.back-button {
+  height: 8vh;
+  width: 8vw;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  background: #5bcfff;
+}

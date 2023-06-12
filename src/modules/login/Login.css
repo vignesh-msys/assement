@@ -1,0 +1,46 @@
+.loginForm {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  width: 23vw;
+  background: white;
+  padding: 10px;
+  text-align: center;
+  box-shadow: -2px 3px 20px 0px;
+}
+.loginFormContainer {
+  height: 70vh;
+  width: 46vw;
+  background-color: #0061ffde;
+  margin: auto;
+  margin-top: 6vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  color: #5d5df8;
+  margin: 0;
+}
+.signUp {
+  height: 5vh;
+  width: 41%;
+  font-size: 11px;
+  background: linear-gradient(149deg, #4879e7, #00f9ff5e);
+  color: white;
+  font-weight: 700;
+}
+.signIn {
+  height: 5vh;
+  width: 41%;
+  font-size: 11px;
+  background: rgb(237, 237, 237);
+  color: grey;
+  font-weight: 700;
+  border: none;
+}
+.error{
+    color: red;
+    font-size: 12px;
+}

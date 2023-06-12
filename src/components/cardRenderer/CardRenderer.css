@@ -1,0 +1,11 @@
+.cardlistcontainer {
+  margin-left: 4vw;
+  min-width: 15vw;
+}
+.cards {
+  max-height: 85vh;
+  overflow: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}

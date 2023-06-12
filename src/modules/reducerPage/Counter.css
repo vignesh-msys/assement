@@ -1,0 +1,8 @@
+.counterContainer {
+  margin: auto;
+  width: 30vw;
+  height: 70vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
