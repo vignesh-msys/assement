@@ -63,7 +63,7 @@ function AddNotes() {
         />
         <br />
         <label htmlFor="des">
-          Context <span>*</span>
+          Content <span>*</span>
         </label>
         <br />
         <input

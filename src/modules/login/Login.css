@@ -44,3 +44,17 @@ h3 {
     color: red;
     font-size: 12px;
 }
+@media only screen and (max-width: 800px) {
+  .loginFormContainer{
+    width: 80vw;
+  }
+  .loginForm{
+    width: 75%;
+  }
+  .signIn,.signUp{
+    font-size: 20px;
+  }
+  h3{
+    font-size: 25px;
+  }
+}

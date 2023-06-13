@@ -1,5 +1,4 @@
 .edit-container {
-  width: 50vw;
   height: 90vh;
   margin-left: 25vw;
   margin-top: 3vh;
@@ -44,4 +43,23 @@ button {
 .save {
   background-color: aqua;
   color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .edit-container {
+    margin-left: 15vw;
+  }
+  .titleEditor,
+  .desEditor {
+    width: 68vw;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  label{
+    font-size: 22px;
+  }
+  button{
+    width: 40%;
+    font-size: 20px;
+  }
 }

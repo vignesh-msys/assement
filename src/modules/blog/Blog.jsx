@@ -14,7 +14,7 @@ function Blog() {
       setBlogs(blogData.data);
     };
     getBlogs();
-  });
+  },[]);
   return (
     <div className="blog-container">
       <BlogList title={"UserId"} content={blog.userId} />
