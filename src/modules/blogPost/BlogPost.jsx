@@ -11,7 +11,7 @@ function BlogPost() {
       setBlogs(blogData.data);
     };
     getBlogs();
-  });
+  },[]);
 
   return (
     <div>
